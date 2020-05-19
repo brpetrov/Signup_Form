@@ -1,0 +1,88 @@
+body {
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+input {
+  margin: 5% auto 8% auto;
+  display: block;
+  width: 90%;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.heading {
+  margin: 30% 0 30% 20%;
+  width: 60%;
+  color: #fff;
+}
+
+.heading>p {
+  margin-top: 5%;
+  width: 120%
+}
+
+.form-container {
+  width: 65%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.free {
+  padding: 4%;
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 5%;
+  border: 2px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  font-weight: 300;
+}
+.free-forever {
+  font-weight: 700;
+}
+
+.form {
+  border: 2px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-submit {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  margin-bottom: 3%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.terms {
+  font-size: 0.7rem;
+  margin-bottom: 5%;
+  color: hsl(246, 25%, 77%);
+}
+.red {
+  color: red;
+}
+
+.attribution {
+  margin-top: 3%;
+  margin-botton:20px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
